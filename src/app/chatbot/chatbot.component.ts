@@ -29,7 +29,7 @@ export class ChatbotComponent implements OnInit {
       });
 
     this.userMessage = '';
-    this.scrollToBottom();
+    this.scrollToBottom()
   }
   scrollToBottom(): void {
     // Scroll to the bottom of the chat container
